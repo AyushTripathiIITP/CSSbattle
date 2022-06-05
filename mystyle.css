@@ -1,0 +1,75 @@
+.mainbody{
+    background-color: black;
+    display: flex;
+}
+.leftArm{
+    position: absolute;
+    background-color: rgb(247, 0, 255);
+    color: blue;
+    content: ' ';
+    width: 20%;
+    height: 39rem;
+    margin-left: 25rem;
+    margin-top: 4.2rem;
+    margin-bottom: 4.2rem;
+}
+.leftArm::before{
+    position: absolute;
+    content: ' ';
+    width:  20%;
+    height: 25%;
+    background: rgb(158, 12, 24);
+    top: 0rem;
+    transform: skew(0, 30deg);
+}
+.leftArm::after{
+    position: absolute;
+    content: ' ';
+    width: 20%;
+    height: 25%;
+    background: rgb(4, 45, 65);
+    left: 25.5rem;
+    bottom: -8.2rem;
+    transform: skew(0, -30deg);
+}
+.rightArm::after{
+    position: absolute;
+    content: ' ';
+    width: 20%;
+    height: 25%;
+    background: rgb(84, 202, 69);
+    right: 22.5rem;
+    bottom: -8.5rem;
+    transform: skew(0, 30deg);
+}
+.rightArm::before{
+    position:absolute;
+    content: ' ';
+    width: 20%;
+    height: 25%;
+    background-color: rgb(172, 23, 23);
+    top: 0rem;
+    transform: skew(0 , -30deg);
+}
+
+.center{
+    color: black;
+    background-color: black;
+    width: 3rem;
+    position: absolute;
+    content: ' ';
+}
+.rightArm{
+    position: absolute;
+    background-color: rgb(208, 255, 0);
+    color: rgb(255, 238, 0);
+    content: ' ';
+    width: 20%;
+    height: 39rem;
+    margin-right: 15rem;
+    margin-top: 4.3rem;
+}
+/* #color{
+    background-color: rgb(0, 217, 255);
+    background-image: linear-gradient(rgb(0, 162, 255), rgb(255, 0, 221));
+} */
